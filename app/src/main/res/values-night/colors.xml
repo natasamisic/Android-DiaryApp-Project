@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#4D4B50</color>
+    <color name="toolbar_color">#353537</color>
+    <color name="abouttextColor">#835DC8</color>
+    <color name="titletextview_color">#AD77DC</color>
+    <color name="item_view_color">#635573</color>
+    <color name="item_view_title_textcolor">#1C0C42</color>
+    <color name="item_view_text_textcolor">#383639</color>
+    <color name="item_view_time_textcolor">#9B979E</color>
+    <color name="button_text_color">#353537</color>
+    <color name="button_background_tint">#AD77DC</color>
+</resources>

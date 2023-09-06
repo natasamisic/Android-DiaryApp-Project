@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="my_entries">MY ENTRIES</string>
+    <string name="add_new_entry">Add new entry</string>
+    <string name="splashimage">splashImage</string>
+    <string name="add_new_entry_title">Add new entry</string>
+    <string name="save_entry">SAVE ENTRY</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="open_camera">Open camera</string>
+    <string name="text">Text</string>
+    <string name="title">Title</string>
+    <string name="uploadedimage">uploadedimage</string>
+    <string name="my_entry">My entry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mydiary">MyDiary</string>
+    <string name="about_this_app">About this app</string>
+    <string name="update_entry">Update entry</string>
+    <string name="done">Done</string>
+    <string name="map_key" translatable="false">AIzaSyBU9kcYic8ZAkHZ1Ssu1oCJnFTGpqN_OBY</string>
+    <string name="powered_by_natasa_misic">Powered by Natasa Misic</string>
+</resources>

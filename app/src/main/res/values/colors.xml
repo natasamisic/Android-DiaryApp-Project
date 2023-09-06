@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_grey">#5A595C</color>
+    <color name="background_color">#C59FF4</color>
+    <color name="toolbar_color">@color/purple_500</color>
+    <color name="abouttextColor">#471F8E</color>
+    <color name="titletextview_color">#795548</color>
+    <color name="item_view_color">#FFFFFFFF</color>
+    <color name="item_view_title_textcolor">#FF000000</color>
+    <color name="item_view_text_textcolor">#3C3B3B</color>
+    <color name="item_view_time_textcolor">#807D7D</color>
+    <color name="custom_input_color">@color/purple_500</color>
+    <color name="button_text_color">#AB47BC</color>
+    <color name="button_background_tint">#FFFFFFFF</color>
+    <color name="search_color">#9A4DDD</color>
+    <color name="snackbar_color">#473C60</color>
+</resources>

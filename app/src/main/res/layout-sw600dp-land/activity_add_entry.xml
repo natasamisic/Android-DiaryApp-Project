@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addentrylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true"
+    tools:context=".AddEntryActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titletextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/add_new_entry_title"
+            android:textColor="@color/titletextview_color"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/titleinput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="170dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/title"
+            android:inputType="textCapSentences"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#5E5D60"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toStartOf="@+id/imagebtn"
+            app:layout_constraintStart_toStartOf="@id/titletextview"
+            app:layout_constraintTop_toBottomOf="@+id/titletextview"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/textinput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_input"
+            android:gravity="top"
+            android:hint="@string/text"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="12"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColorHint="#5E5D60"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="@+id/titleinput"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleinput" />
+
+        <Button
+            android:id="@+id/imagebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="200dp"
+            android:backgroundTint="#DED2ED"
+            android:text="Upload image"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/titleinput" />
+
+        <ImageView
+            android:id="@+id/uploaded_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/uploadedimage"
+            app:layout_constraintBottom_toBottomOf="@+id/textinput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textinput"
+            app:layout_constraintTop_toBottomOf="@+id/imagebtn" />
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/button_background_tint"
+            android:text="@string/save_entry"
+            android:textColor="@color/button_text_color"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/mapbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#DED2ED"
+            android:text="Add map location"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput" />
+
+        <TextView
+            android:id="@+id/entered_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:lines="1"
+            android:textColor="@color/abouttextColor"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toBottomOf="@+id/mapbtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mapbtn"
+            app:layout_constraintTop_toTopOf="@+id/mapbtn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
